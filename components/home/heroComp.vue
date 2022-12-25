@@ -1,28 +1,23 @@
 <template>
   <div class="hero">
     <div class="container">
-      <!-- hero2
-      <button @click="cek">cek</button> -->
-      <!-- <div> -->
-        <div v-for="item in hero" :key="item.id" class='box'>
-          <!-- <div>{{ item.id }}</div> -->
-          <!-- <div class='box1'> -->
-            <div class='img'>
-              <img :src="item.cover" alt='' />
-            </div>
-            <div class='text'>
-              <span class='category'>{{ item.catgeory }}</span>
-              <NuxtLink to="/wadudu">
-                <h1 class='titleBg'>{{ item.title }}</h1>
-              </NuxtLink>
-              <div class='author flex'>
-                <span>by {{ item.authorName }} </span>
-                <span>{{ item.time }}</span>
-              </div>
-            </div>
-          <!-- </div> -->
+      <div v-for="item in hero" :key="item.id" class="box">
+        <div class="img">
+          <img :src="item.cover" alt="">
         </div>
-      <!-- </div> -->
+        <div class="text">
+          <span class="category">{{ item.catgeory }}</span>
+          <NuxtLink to="/wadudu">
+            <h1 class="titleBg">
+              {{ item.title }}
+            </h1>
+          </NuxtLink>
+          <div class="author flex">
+            <span>by {{ item.authorName }} </span>
+            <span>{{ item.time }}</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>

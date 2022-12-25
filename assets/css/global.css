@@ -91,8 +91,8 @@ a {
   font-size: 17px;
   margin-bottom: 15px;
 }
-.comment i,
-.date i {
+.comment .icon,
+.date .icon {
   width: 30px;
   color: #fb4c35;
   font-size: 13px;

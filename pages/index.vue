@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderComp />
-    <heroComp />
+    <HomePages />
   </div>
 </template>
 
