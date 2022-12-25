@@ -4,8 +4,8 @@
       <div class='container'>
         <section class='mainContent'>
           <PopularComp />
-          <!-- <Ppost />
-          <Life />
+          <PostComp />
+          <!-- <Life />
           <Music /> -->
         </section>
         <section class='sideContent'>
