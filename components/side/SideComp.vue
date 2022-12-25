@@ -15,13 +15,30 @@
       </form>
     </section>
 
-    <section className='banner'>
-      <img src='https://res.cloudinary.com/dewaqintoro/image/upload/v1671977490/Ngodingbentar/news/sidebar-banner-new_efae7k.jpg' alt='' />
+    <section className="banner">
+      <img src="https://res.cloudinary.com/dewaqintoro/image/upload/v1671977490/Ngodingbentar/news/sidebar-banner-new_efae7k.jpg" alt="">
     </section>
 
     <SideTiktokComp />
+
+    <section class="catgorys">
+      <HeadingComp title="Catgeorys" />
+      <div v-for="item in catgeory" :key="item" class="category category1">
+        <span>{{ item }}</span>
+      </div>
+    </section>
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      catgeory: ['world', 'travel', 'sport', 'fun', 'health', 'fashion', 'business', 'technology']
+    }
+  }
+}
+</script>
 
 <style scoped>
 /*------subscribe--------*/
