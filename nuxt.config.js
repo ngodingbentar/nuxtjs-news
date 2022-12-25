@@ -20,6 +20,7 @@ export default {
   css: [
     '@/assets/css/header.css',
     '@/assets/css/global.css'
+    // '@/assets/css/hero.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -27,7 +28,14 @@ export default {
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  // components: true,
+  components: {
+    dirs: [
+      '~/components',
+      '~/components/home',
+      '~/components/global'
+    ]
+  },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [

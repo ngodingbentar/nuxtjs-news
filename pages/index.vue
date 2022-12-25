@@ -1,9 +1,12 @@
 <template>
-  <div>index</div>
+  <div>
+    <HeaderComp />
+    <heroComp />
+  </div>
 </template>
 
-<script>
+<!-- <script>
 export default {
   layout: 'header'
 }
-</script>
+</script> -->

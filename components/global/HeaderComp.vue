@@ -3,10 +3,10 @@
     <div class='head'>
       <div class='container flexSB paddingTB'>
         <div class='logo'>
-          <img src='https://res.cloudinary.com/dewaqintoro/image/upload/v1599193286/icon/travada_apbjdq.png' alt='' />
+          <img src='https://res.cloudinary.com/dewaqintoro/image/upload/v1671948660/Ngodingbentar/news/logo_tlrawp.png' alt='' />
         </div>
         <div class='ad'>
-          <img src='https://res.cloudinary.com/dewaqintoro/image/upload/v1599193286/icon/travada_apbjdq.png' alt='' />
+          <img src='https://res.cloudinary.com/dewaqintoro/image/upload/v1671948665/Ngodingbentar/news/headerb_ci4bg2.jpg' alt='' />
         </div>
       </div>
     </div>
