@@ -1,0 +1,60 @@
+<template>
+  <div>
+    <HeadingComp title="Stay Connected" />
+    <SideSocialComp />
+  </div>
+</template>
+
+<style scoped>
+/*------subscribe--------*/
+.subscribe {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+.subscribe h1 {
+  text-align: left;
+  font-size: 20px;
+}
+.subscribe input {
+  width: 100%;
+  padding: 10px;
+}
+.subscribe button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #ff0000;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+}
+/*------subscribe--------*/
+.banner {
+  margin: 40px 0;
+}
+.catgorys .category1 {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+/*----------gallery----------*/
+.gallery .img {
+  width: 315px;
+  height: 200px;
+}
+.gallery img {
+  width: 315px;
+  height: 200px;
+  object-fit: cover;
+}
+/*----------gallery----------*/
+@media screen and (max-width: 768px) {
+  .gallery img,
+  .gallery .img {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+</style>
