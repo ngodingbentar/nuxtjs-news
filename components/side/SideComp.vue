@@ -14,6 +14,12 @@
         </button>
       </form>
     </section>
+
+    <section className='banner'>
+      <img src='https://res.cloudinary.com/dewaqintoro/image/upload/v1671977490/Ngodingbentar/news/sidebar-banner-new_efae7k.jpg' alt='' />
+    </section>
+
+    <SideTiktokComp />
   </div>
 </template>
 
