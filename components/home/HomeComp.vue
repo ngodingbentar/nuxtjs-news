@@ -16,7 +16,7 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 main .container {
   display: flex;
   justify-content: space-between;

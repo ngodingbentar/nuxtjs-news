@@ -2,6 +2,18 @@
   <div>
     <HeadingComp title="Stay Connected" />
     <SideSocialComp />
+    <HeadingComp title="Subscribe" />
+    <section class="subscribe">
+      <h1 class="title">
+        Subscribe to our New Stories
+      </h1>
+      <form action="">
+        <input type="email" placeholder="Email Address...">
+        <button>
+          <i class="fa fa-paper-plane" /> SUBMIT
+        </button>
+      </form>
+    </section>
   </div>
 </template>
 
