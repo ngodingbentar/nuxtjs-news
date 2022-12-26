@@ -27,14 +27,39 @@
         <span>{{ item }}</span>
       </div>
     </section>
+
+    <section class="gallery">
+      <HeadingComp title="Gallery" />
+      <slick
+        ref="slick"
+        :options="slickOptions"
+      />
+      <div v-for="(item, index) in gallery" :key="index" class="img">
+        <img src='https://res.cloudinary.com/dewaqintoro/image/upload/v1671977483/Ngodingbentar/news/g1_s9lvau.jpg' alt="">
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
+import Slick from 'vue-slick'
+import { gallery } from '~/assets/dummyData.js'
+
 export default {
+  components: {
+    Slick
+  },
   data () {
     return {
-      catgeory: ['world', 'travel', 'sport', 'fun', 'health', 'fashion', 'business', 'technology']
+      gallery,
+      catgeory: ['world', 'travel', 'sport', 'fun', 'health', 'fashion', 'business', 'technology'],
+      slickOptions: {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
     }
   }
 }
