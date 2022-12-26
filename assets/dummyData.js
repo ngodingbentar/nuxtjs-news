@@ -412,18 +412,6 @@ export const tpost = [
 export const gallery = [
   {
     cover: '~/assets/images/gallery/g1.jpg'
-  },
-  {
-    cover: '~/assets/images/gallery/g2.jpg'
-  },
-  {
-    cover: '~/assets/images/gallery/g3.jpg'
-  },
-  {
-    cover: '~/assets/images/gallery/g4.jpg'
-  },
-  {
-    cover: '~/assets/images/gallery/g5.jpg'
   }
 ]
 export const discover = [

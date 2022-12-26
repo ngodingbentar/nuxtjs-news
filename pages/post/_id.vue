@@ -3,7 +3,9 @@
     <HeaderComp />
     <main>
       <!-- <SinglePageSlider /> -->
-      <SliderPostComp />
+      <div class="container">
+        <SliderPostComp />
+      </div>
       <div v-if="post" class="container">
         <section class="mainContent details">
           <h1 class="title">
@@ -145,6 +147,7 @@ main {
   margin-right: 20px;
 }
 .details img {
+  max-width: 100%;
   margin: 30px 0;
 }
 .desctop p {
