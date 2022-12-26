@@ -7,7 +7,7 @@
         </div>
         <div class="text">
           <span class="category">{{ item.catgeory }}</span>
-          <NuxtLink to="/wadudu">
+          <NuxtLink :to="`/post/${item.id}`">
             <h1 class="titleBg">
               {{ item.title }}
             </h1>

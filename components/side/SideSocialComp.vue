@@ -23,7 +23,7 @@
   </section>
 </template>
 
-<style scoped>
+<style>
 .social .socBox {
   padding: 10px 20px;
   margin-bottom: 10px;
