@@ -6,7 +6,7 @@
           <PopularComp />
           <PostComp />
           <LifeComp />
-          <!-- <Music /> -->
+          <MusicComp />
         </section>
         <section class='sideContent'>
           <SideComp />
