@@ -2,6 +2,7 @@
   <div>
     <HeaderComp />
     <HomePages />
+    <FooterComp />
   </div>
 </template>
 
