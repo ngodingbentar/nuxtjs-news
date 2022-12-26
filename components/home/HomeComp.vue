@@ -5,8 +5,8 @@
         <section class='mainContent'>
           <PopularComp />
           <PostComp />
-          <!-- <Life />
-          <Music /> -->
+          <LifeComp />
+          <!-- <Music /> -->
         </section>
         <section class='sideContent'>
           <SideComp />
